@@ -1,4 +1,20 @@
+/* https://standardnotes.com/help/plugins/themes */
 /* Include the SF Compact Font from jsDelivr */
+@font-face {
+  font-family: 'compacticon';
+  src: url('https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/fonts/compacticon.ttf') format('ttf')
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Include the MonoLisa Font from jsDelivr */
+@font-face {
+  font-family: 'monolisa';
+  src: url('https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/fonts/monolisa.otf') format('otf')
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'SF Compact';
   src: url('https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/fonts/compacticon.ttf') format('ttf')
@@ -8,7 +24,7 @@
 
 /* Include the MonoLisa Font from jsDelivr */
 @font-face {
-  font-family: 'SF Compact';
+  font-family: 'MonoLisa Nerd Font Mono';
   src: url('https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/fonts/monolisa.otf') format('otf')
   font-weight: normal;
   font-style: normal;
@@ -77,6 +93,8 @@
   --sn-stylekit-grey-5: var(--highlight-color);
   --sn-stylekit-grey-4-opacity-variant: var(--current-line);
   --navigation-item-selected-background-color: var(--current-line);
+  --sn-stylekit-monospace-font: 'monolisa', 'MonoLisa Nerd Font Mono', 'Ubuntu Mono', courier, monospace;
+  --sn-stylekit-sans-serif-font: 'compacticon', 'SF Compact', -apple-system, BlinkMacSystemFont, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .sn-component .sk-panel .sk-panel-footer .left {
