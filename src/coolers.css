@@ -1,15 +1,32 @@
+/* Include the SF Compact Font from jsDelivr */
+@font-face {
+  font-family: 'SF Compact';
+  src: url('https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/fonts/compacticon.ttf') format('ttf')
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Include the MonoLisa Font from jsDelivr */
+@font-face {
+  font-family: 'SF Compact';
+  src: url('https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/fonts/monolisa.otf') format('otf')
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 :root {
-  --background: #282a36;
+  --background: #191a2a;
   --current-line: #44475a;
-  --foreground: #f8f8f2;
-  --comment: #6272a4;
-  --red: #ff5555;
-  --orange: #ffb86c;
-  --green: #50fa7b;
-  --pink: #ff79c6;
-  --purple: #bd93f9;
-  --cyan: #8be9fd;
-  --yellow: #f1fa8c;
+  --foreground: #c8d3f5;
+  --comment: #828bb8;
+  --red: #ff2c7c;
+  --orange: #f78c6c;
+  --green: #36c692;
+  --pink: #0195f7;
+  --purple: #786fea;
+  --cyan: #08bdba;
+  --yellow: #ffc777;
   --bar-color: rgb(32, 34, 49);
   --darker-background: rgb(25, 26, 33);
   --darker-background-border: rgb(32, 34, 49);
@@ -64,8 +81,4 @@
 
 .sn-component .sk-panel .sk-panel-footer .left {
   color: var(--foreground);
-}
-
-#plus-editor label kbd {
-  background-color: var(--sn-stylekit-background-color);
 }

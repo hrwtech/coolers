@@ -1,0 +1,20 @@
+{
+  "identifier": "com.hrwtech.coolers",
+  "name": "Coolers",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A custom theme for Standard Notes featuring the SF Compact font.",
+  "url": "https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/src/coolers.css",
+  "download_url": "https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/src/coolers.css",
+  "latest_url": "https://cdn.jsdelivr.net/gh/hrwtech/coolers@master/ext.json",
+  "marketing_url": "",
+  "thumbnail_url": "",
+	"dock_icon": {
+    "type": "circle",
+    "background_color": "#bd93f9",
+    "foreground_color": "#bd93f9",
+    "border_color": "#bd93f9"
+  },
+  "statusBar": "dark-content"
+}
