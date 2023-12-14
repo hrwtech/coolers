@@ -4,8 +4,8 @@ metatype: json
 
 
 {
-  "identifier": "com.hrwtech.coolers",
-  "name": "Coolers",
+  "identifier": "com.hrwtech.vim-coolers",
+  "name": "Vim-Coolers",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
